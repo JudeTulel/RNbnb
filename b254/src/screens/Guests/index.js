@@ -69,7 +69,11 @@ const Guest = () => {
     </View>
     </View>
     <Pressable style={styles.searchButton}
-    onPress={()=>navigator.navigate('SearchResults')} >
+    onPress={()=>navigator.navigate('Home',{
+      screen:'Explore',
+      params:{screen:'Results'},
+
+    })} >
         <Text style={{color:'white',fontSize:16,fontFamily:'Segoe'}}>Search</Text>
       </Pressable>
     </ImageBackground>
