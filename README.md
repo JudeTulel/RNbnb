@@ -1,2 +1,3 @@
 # RNbnb
-Bnb Rental Android app written in react native
+Bnb Rental Android app  frontend in react native
+Backend Mongodb
